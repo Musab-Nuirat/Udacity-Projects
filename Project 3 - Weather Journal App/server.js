@@ -58,7 +58,6 @@ app.post('/add', async (req, res) => {
             date
         });
         
-        console.log(projectData);  // Debugging log
         res.send({ message: 'Data Added Successfully' });
     } catch (error) {
         console.error("Error fetching weather data:", error);
